@@ -2,7 +2,7 @@
 {
     'name': "jt_debrand",
 
-    'summary': "Eauzon backend customizations",
+    'summary': "Odoo debranding",
 
     'description': "",
 
