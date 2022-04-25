@@ -19,5 +19,11 @@
             </xpath>
         </template>
 
+        <template id="message_notification_email" inherit_id="mail.message_notification_email">
+            <xpath expr="//div[last()]/p" position="replace">
+                <p style="margin-top:32px;"/>
+            </xpath>
+        </template>        
+
     </data>
 </odoo>
