@@ -14,7 +14,7 @@
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '15.1.0.2',
+    'version': '2.0',
 
     # any module necessary for this one to work correctly
     'depends': ['base','mail'],
@@ -22,8 +22,8 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'data/mail_templates.xml',
-        'views/portal_templates.xml',
+        # 'data/mail_templates.xml',
+        # 'views/portal_templates.xml',
 
     ],
     # only loaded in demonstration mode
